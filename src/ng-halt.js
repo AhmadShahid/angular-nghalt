@@ -27,7 +27,7 @@ app.directive('ngHalt', haltCharacter );
 	          number: false, // Find 0-9
 	          special: false, // Find a non-word character or the _ (underscore) character
 	          allowSpace: true,
-	          maxlength: 6,
+	          maxlength: 50,
 	          regex:false,
 
 	      }, userInput);
