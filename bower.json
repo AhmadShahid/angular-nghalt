@@ -1,15 +1,13 @@
 {
-  "name": "angular halt",
+  "name": "angular-halt",
+  "main": "src/ng-halt.js",
   "version": "0.0.1",
   "homepage": " https://github.com/AhmadShahid/angular-nghalt",
-  "authors": [
-    "AhmadShahid <shahidahmad527@gmail.com>"
-  ],
-  "description": "A simple, pure  AngularJS directive to  restricts the characters that may be entered into a text field.",
-  "main": "src/ng-halt.js",
-  "dependencies": {
-    "angular": "^1.5.0",
+  "author": {
+    "name": "Ahmad Shahid",
+    "email": "shahidahmad527@gmail.com"
   },
+  "description": "A simple, pure  AngularJS directive to  restricts the characters that may be entered into a text field.",
   "keywords": [
     "angularjs",
     "angular",
@@ -20,7 +18,7 @@
     "restricts",
     "angular halt",
     "inputs",
-    "character",
+    "character"
   ],
   "license": "MIT",
   "ignore": [
@@ -30,4 +28,7 @@
     "test",
     "tests",
   ],
+  "dependencies": {
+    "angular": "^1.5.0"
+  }
 }
