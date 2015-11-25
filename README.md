@@ -14,7 +14,7 @@ Include the script and style:
 <script src="bower_modules/angular-halt/dist/ng-hide.js"></script>
 ```
 
-Include the `trTrustpass` dependency on your Angular module:
+Include the `ngHalt` dependency on your Angular module:
 ```html
 angular.module('demoApp', ['ngHalt']);
 ```
