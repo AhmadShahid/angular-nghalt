@@ -23,30 +23,30 @@ angular.module('demoApp', ['ngHalt']);
 #### Usage
 For alpha 
 ```html
-<input type="text" ng="alpha: true">
+<input type="text" ng-halt="alpha: true">
 ```
 For alphanumeric
 ```html
-<input type="text" ng="alpha: true,numeric:true">
+<input type="text" ng-halt="alpha: true,numeric:true">
 ```
 
 For alphanumeric + special characters
 ```html
-<input type="text" ng="alpha: true,numeric:true ,special:true">
+<input type="text" ng-halt="alpha: true,numeric:true ,special:true">
 ```
 
 AllowSpace
 ```html
-<input type="text" ng="alpha: true,numeric:true ,special:true,allowSpace:true">
+<input type="text" ng-halt="alpha: true,numeric:true ,special:true,allowSpace:true">
 ```
 
 To pass custom regex
 ```html
-<input type="text" ng="rexex:^[A-Za-z]*$">
+<input type="text" ng-halt="rexex:^[A-Za-z]*$">
 ```
 
 ## Options
-Pass a string to `ng-hide` like this: `ng-hide="alpha: true, special: false"`
+Pass a string to `ng-halt` like this: `ng-halt="alpha: true, special: false"`
 
 #### Available tests
 | **Option** | Default | Description                                                                                                               |
