@@ -23,9 +23,9 @@ app.directive('ngHalt', haltCharacter );
 
 	          // Tests
 	          // "A word character": a character from a-z, A-Z, 0-9, including the _ (underscore) character.
-	          alpha: false, // Find A-Z
-	          number: false, // Find 0-9
-	          special: false, // Find a non-word character or the _ (underscore) character
+	          alpha: true, // Find A-Z
+	          number: true, // Find 0-9
+	          special: true, // Find a non-word character or the _ (underscore) character
 	          allowSpace: true,
 	          maxlength: 50,
 	          regex:false,

@@ -55,5 +55,6 @@ Pass a string to `ng-halt` like this: `ng-halt="alpha: true, special: false"`
 | numeric     | true    | Can accept Number(0-9).                                                                                                                  |
 | special    | true    |  Can accept non-word character                                                                |
 | maxlength    | false   | Check maximum length. Defaults to 50. |
+| allowSpace    | true   | Can accept space. |
 | regex    | false   | Pass a custom regex to restrict user from input. |
 
