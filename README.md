@@ -35,7 +35,7 @@ For alphanumeric + special characters
 <input type="text" ng="alpha: true,numeric:true ,special:true">
 ```
 
-AllowSpache
+AllowSpace
 ```html
 <input type="text" ng="alpha: true,numeric:true ,special:true,allowSpace:true">
 ```
