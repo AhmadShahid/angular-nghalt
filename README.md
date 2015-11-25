@@ -6,12 +6,12 @@ A simple, pure  AngularJS directive to restricts the characters that may be ente
 Install using [Bower](http://bower.io/):
 ```bash
 # install package and add it to bower.json dependencies
-$ bower install angular halt --save
+$ bower install angular-nghalt --save
 ```
 
 Include the script and style:
 ```html
-<script src="bower_modules/angular-halt/dist/ng-hide.js"></script>
+<script src="bower_modules/angular-nghalt/src/ng-hide.js"></script>
 ```
 
 Include the `ngHalt` dependency on your Angular module:
