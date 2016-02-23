@@ -42,7 +42,7 @@ AllowSpace
 
 To pass custom regex
 ```html
-<input type="text" ng-halt="rexex:^[A-Za-z]*$">
+<input type="text" ng-halt="regex:^[A-Za-z]*$">
 ```
 
 ## Options
